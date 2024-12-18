@@ -13,7 +13,6 @@ include('templates/header.php') ?>
     <div class="container">
         <h1 class="text-center text-primary mb-4">Borrowing</h1>
 
-        <!-- Form Card -->
         <div class="card shadow-sm">
             <div class="card-body">
                 <form action="/borrowing" method="POST" class="row g-3">
@@ -54,7 +53,6 @@ include('templates/header.php') ?>
             </div>
         </div>
 
-        <!-- Notifications -->
         <div class="my-4">
             <?php if (isset($_SESSION['error'])) : ?>
                 <div class="alert alert-danger text-center">
@@ -68,7 +66,6 @@ include('templates/header.php') ?>
             <?php endif ?>
         </div>
 
-        <!-- Table -->
         <h5 class="mt-5 text-center">BOOKS BEING BORROWED</h5>
         <div class="table-responsive">
             <table class="table table-hover shadow-sm">
@@ -95,9 +92,10 @@ include('templates/header.php') ?>
             </table>
         </div>
 
-        <!-- Back Home -->
-        <div class="text-center my-4">
-            <a href="/" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Back to Home</a>
+        <div class="d-flex justify-content-center">
+            <div class="my-4">
+                <a href="/">Back to Home</a>
+            </div>
         </div>
     </div>
 </div>
