@@ -14,7 +14,7 @@ include('config/database.php')
 
 <div class="main-content bg-white">
     <section class="container my-5">
-        <h3 class="panel-title text-center">EARTH LIBRARY</h3>
+        <h3 class="panel-title text-center">PI School LIBRARY</h3>
         <h3 class="text-center">Member</h3>
         <a href="/register">
 
